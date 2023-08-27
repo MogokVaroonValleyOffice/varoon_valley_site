@@ -10,13 +10,8 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/Portfolio/";
+    config.base = "/varoon_valley_site/";
   }
 
   return config;
 });
-
-// export default defineConfig({
-//   plugins: [react()],
-//   base: "/",
-// });
