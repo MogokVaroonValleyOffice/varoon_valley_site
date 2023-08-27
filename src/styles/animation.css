@@ -1,0 +1,68 @@
+.bounce:hover {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-timing-function: linear;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.scale {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: scale;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pop-on-hover {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.pop-on-hover::after {
+  content: url("./../assets/images/icons/info.svg");
+  position: absolute;
+  /* background: #cbd5e066; */
+  backdrop-filter: blur(3px);
+  top: -20%;
+  right: 0;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px 0px 3px 10px;
+  padding: 5px 5px 0px 5px;
+  transition: 0.5s;
+}
+
+.pop-on-hover:hover::after {
+  top: 0;
+}
+
+.pop-on-hover:hover img {
+  /* transform: scale(1.1); */
+  transition: 1s;
+}
