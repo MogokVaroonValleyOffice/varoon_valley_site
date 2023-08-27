@@ -4,7 +4,7 @@ import ErrorPage from "../pages/Error/ErrorPage";
 
 const router = createBrowserRouter(
   [{ path: "/", element: <HomePage />, errorElement: <ErrorPage /> }],
-  { basename: import.meta.env.DEV ? "/" : "/varoon_valley_site/"  }
+  { basename: "/" }
 );
 
 export default router;

@@ -8,9 +8,9 @@ export default defineConfig(({ command }) => {
     plugins: [react()],
     base: "/",
   };
-
+  // for build base path
   if (command !== "serve") {
-    config.base = "/varoon_valley_site/";
+    config.base = "/";
   }
 
   return config;
