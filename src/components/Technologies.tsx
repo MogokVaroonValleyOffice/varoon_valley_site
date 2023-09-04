@@ -18,6 +18,7 @@ import {
   vuejs,
 } from "../assets/images";
 import { cardWhite, secHeading } from "../theme/colors";
+import React from "react";
 
 const Technologies = () => {
   const languages = [

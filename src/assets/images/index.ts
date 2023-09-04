@@ -1,6 +1,12 @@
 //Avatars
 import person1 from "./avatars/person1.webp";
 import person2 from "./avatars/person2.webp";
+import AungPhyoThant from "./profile/AungPhyoThant.webp";
+import ChawBeLar from "./profile/ChawBeLar.webp";
+import GanGarDar from "./profile/GanGarDar.webp";
+import MohanLar from "./profile/MohanLar.webp";
+import SoePhyuPhyuHtun from "./profile/SoePhyuPhyuHtun.webp";
+import ThihanWinHtet from "./profile/ThihanWinHtet.webp";
 
 //Icons
 import close from "./icons/close.svg";
@@ -42,6 +48,12 @@ export {
   //Avatars
   person1,
   person2,
+  AungPhyoThant,
+  ChawBeLar, 
+  GanGarDar,
+   MohanLar, 
+   SoePhyuPhyuHtun, 
+   ThihanWinHtet,
 
   //Icons
   close,
