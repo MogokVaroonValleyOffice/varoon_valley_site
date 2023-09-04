@@ -1,15 +1,16 @@
-import GanGarDar from "../assets/images/profile/GanGarDar.jpg";
-import Mohan from "../assets/images/profile/MohanLar.jpg";
-import SoePhyuPhyuHtun from "../assets/images/profile/SoePhyuPhyuHtun.jpg";
-import ChawBeLar from "../assets/images/profile/ChawBeLar.jpg";
-import ThihanWinHtet from "../assets/images/profile/ThihanWinHtet.jpg";
-import AungPhyoThant from "../assets/images/profile/AungPhyoThant.jpg";
+import { AungPhyoThant, 
+  ChawBeLar, 
+  GanGarDar, 
+  MohanLar, 
+  SoePhyuPhyuHtun, 
+  ThihanWinHtet} from "../assets/images";
+
 
 export default [
   {
     name: "Mohan Lar",
     position: "Founder/CEO",
-    picture: Mohan,
+    picture: MohanLar,
     education: ["Master Degree in Computer Science"],
     experience: [
       "Freelance, Myanmar (2015 - 2017)",
