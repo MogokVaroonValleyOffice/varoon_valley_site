@@ -16,7 +16,7 @@ import { FieldValues, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { phoneRegex } from "../utils/validator";
 import { btnText, cardWhite, text } from "../theme/colors";
-import emailjs from "@emailjs/browser";
+import sendMail from "../utils/mailer";
 
 const schema = z
 	.object({
@@ -48,27 +48,8 @@ const Contact = () => {
 	});
 
 	function onSubmit(data: FieldValues) {
-		emailjs
-			.send(
-				"service_cekrbgb",
-				"template_6mpgakk",
-				{
-					name: data.name,
-					email: data.email,
-					phone: data.phone,
-					description: data.description,
-				},
-				"L36M0C8GcRtJFUMRO"
-			)
-			.then(
-				(response) => {
-					console.log("SUCCESS!", response.status, response.text);
-					reset();
-				},
-				(err) => {
-					console.log("FAILED...", err);
-				}
-			);
+		sendMail(data);
+		reset();
 	}
 
 	return (
