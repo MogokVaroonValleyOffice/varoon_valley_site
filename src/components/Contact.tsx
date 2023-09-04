@@ -182,7 +182,6 @@ const Contact = () => {
 								marginY={2}
 								isLoading={load}
 								type="submit"
-								variant="outline"
 								loadingText="Sending"
 							>
 								Send
