@@ -14,11 +14,13 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.7.1",
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@hookform/resolvers": "^3.1.1",
     "@types/aos": "^3.0.4",
     "aos": "^2.3.4",
+    "email-js": "^2.0.2",
     "framer-motion": "^10.12.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
