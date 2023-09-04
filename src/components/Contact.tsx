@@ -1,4 +1,6 @@
 import {
+	Alert,
+	AlertIcon,
 	Box,
 	Button,
 	FormControl,
@@ -17,6 +19,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { phoneRegex } from "../utils/validator";
 import { btnText, cardWhite, text } from "../theme/colors";
 import sendMail from "../utils/mailer";
+import React, { useState } from "react";
 
 const schema = z
 	.object({
@@ -36,20 +39,33 @@ const schema = z
 	.partial();
 
 type FormData = z.infer<typeof schema>;
+type AlertType = "success" | "error" | undefined;
 
 const Contact = () => {
 	const {
 		register,
 		handleSubmit,
-		formState: { errors, isSubmitting },
+		formState: { errors },
 		reset,
 	} = useForm<FormData>({
 		resolver: zodResolver(schema),
 	});
+	let [load, setLoad] = useState(false);
+	let [alert, setAlert] = useState<AlertType>(undefined);
 
 	function onSubmit(data: FieldValues) {
-		sendMail(data);
-		reset();
+		setLoad(true);
+		sendMail(data).then(
+			(response) => {
+				setAlert("success");
+				setLoad(false);
+				reset();
+			},
+			(err) => {
+				setAlert("error");
+				setLoad(false);
+			}
+		);
 	}
 
 	return (
@@ -87,6 +103,18 @@ const Contact = () => {
 						</Text>
 					</Box>
 					<Box>
+						{alert && (
+							<Alert
+								status={alert}
+								marginBottom={5}
+								borderRadius={5}
+							>
+								<AlertIcon />
+								{alert === "success"
+									? "Your email was sent!"
+									: "Request failed. Please check your network."}
+							</Alert>
+						)}
 						<form onSubmit={handleSubmit(onSubmit)}>
 							<FormControl
 								isInvalid={errors.name ? true : false}
@@ -152,8 +180,10 @@ const Contact = () => {
 								background={"green.300"}
 								color={btnText()}
 								marginY={2}
-								isLoading={isSubmitting}
+								isLoading={load}
 								type="submit"
+								variant="outline"
+								loadingText="Sending"
 							>
 								Send
 							</Button>

@@ -9,13 +9,6 @@ const sendMail = (data) => {
 		phone: data.phone,
 		description: data.description,
 	};
-	emailjs.send(mailServiceKey, templateKey, templatePrams, publicKey).then(
-		(response) => {
-			console.log("SUCCESS!", response.status, response.text);
-		},
-		(err) => {
-			console.log("FAILED...", err);
-		}
-	);
+	return emailjs.send(mailServiceKey, templateKey, templatePrams, publicKey);
 };
 export default sendMail;
