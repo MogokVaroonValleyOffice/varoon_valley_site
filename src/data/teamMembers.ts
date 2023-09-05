@@ -1,9 +1,9 @@
-import GanGarDar from "../assets/images/profile/GanGarDar.jpg";
-import Mohan from "../assets/images/profile/MohanLar.jpg";
-import SoePhyuPhyuHtun from "../assets/images/profile/SoePhyuPhyuHtun.jpg";
-import ChawBeLar from "../assets/images/profile/ChawBeLar.jpg";
-import ThihanWinHtet from "../assets/images/profile/ThihanWinHtet.jpg";
-import AungPhyoThant from "../assets/images/profile/AungPhyoThant.jpg";
+import GanGarDar from "../assets/images/profile/GanGarDar.webp";
+import Mohan from "../assets/images/profile/MohanLar.webp";
+import SoePhyuPhyuHtun from "../assets/images/profile/SoePhyuPhyuHtun.webp";
+import ChawBeLar from "../assets/images/profile/ChawBeLar.webp";
+import ThihanWinHtet from "../assets/images/profile/ThihanWinHtet.webp";
+import AungPhyoThant from "../assets/images/profile/AungPhyoThant.webp";
 
 export default [
   {
