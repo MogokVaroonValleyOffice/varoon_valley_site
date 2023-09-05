@@ -66,7 +66,7 @@ export default [
     name: "Chawbe Lar",
     position: "Software Developer",
     picture: ChawBeLar,
-    education: ["Varoon Valley (2023 - current)"],
+    education: ["KMD (2019 - currnet)","Varoon Valley (2023 - current)"],
     experience: ["Varoon Valley (2023 - current)"],
     languages: ["React", "Laravel"],
     project: [],
