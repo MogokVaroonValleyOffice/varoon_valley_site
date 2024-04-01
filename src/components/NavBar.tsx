@@ -48,7 +48,7 @@ const NavBar = () => {
             paddingBottom={6}
           >
             <Text fontSize={"xl"} color={"green.300"} fontWeight={"bold"}>
-              Varoon
+              Varoon 
             </Text>
             <Text
               fontSize={"xl"}

@@ -31,7 +31,7 @@ const Team = () => {
         spacing={8}
         maxWidth={{ sm: "500px", md: "900px" }}
         margin={"auto"}
-        style={{ alignItems: "stretch" }}
+        style={{ alignContent: "stretch" }}
       >
         {team.map((member, index) => (
           <Box

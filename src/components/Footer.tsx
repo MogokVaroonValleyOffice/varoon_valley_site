@@ -19,14 +19,14 @@ const Footer = () => {
       styles: false,
     },
     {
-      text: "North 20th Way, Phoenix, AZ",
+      text: "1560 7th Ave Watervaliet NY 12189",
       icon: location,
       clickable: false,
-      link: "https://goo.gl/maps/5Aj73BNwYK1LP56a6",
+      link: "https://maps.app.goo.gl/9whYMLLKtmkh2Pne9",
       styles: false,
     },
     {
-      text: "job@varoonvalley.com",
+      text: "contact@varoonvalley.com",
       icon: mail,
       clickable: true,
       link: "mailto: contact@varoonvalley.com",
