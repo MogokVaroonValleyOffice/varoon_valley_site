@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 235.93 208.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="76.3" x2="111.64" y2="76.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42c2ef"/>
+      <stop offset="1" stop-color="#4f73b8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="91.64" y1="104.43" x2="235.93" y2="104.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#74449a"/>
+      <stop offset=".12" stop-color="#5f57a9"/>
+      <stop offset=".39" stop-color="#367cc7"/>
+      <stop offset=".64" stop-color="#1897dd"/>
+      <stop offset=".85" stop-color="#06a8ea"/>
+      <stop offset="1" stop-color="#00aeef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0" y1="52.21" x2="111.64" y2="52.21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#74449a"/>
+      <stop offset="1" stop-color="#00aeef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="120.04" y1="59.69" x2="239.26" y2="53.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42c2ef"/>
+      <stop offset="0" stop-color="#42c1ee"/>
+      <stop offset=".29" stop-color="#479fd6"/>
+      <stop offset=".55" stop-color="#4b86c5"/>
+      <stop offset=".8" stop-color="#4e78bb"/>
+      <stop offset="1" stop-color="#4f73b8"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <polyline class="cls-1" points="0 0 51.04 0 104.78 92.59 111.64 104.43 84.26 152.61 0 0"/>
+    <polyline class="cls-4" points="235.93 0 115.56 208.86 91.64 166.13 187.5 0 235.93 0"/>
+    <path class="cls-2" d="M0,0H51.04l60.6,104.43C65.35,87.69,23.79,41.32,0,0"/>
+    <path class="cls-3" d="M235.93,0l-65.43,113.53c-4.16,.3-9.57,.62-13.79,.2-11.26-1.11-20.47-3.18-31.56-5.68h0L187.5,0h48.42"/>
+  </g>
+</svg>

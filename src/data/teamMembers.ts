@@ -31,6 +31,7 @@ export default [
       "JSON",
       "Bootstrap",
       "MySQL",
+      "Node.js"
     ],
 
     project: [
@@ -43,12 +44,26 @@ export default [
   },
   {
     name: "Gan Gar Dar",
-    position: "Founder/CTO",
+    position: "Founder/ Software House Manager",
     picture: GanGarDar,
     education: ["KMD (2022 - current)"],
-    experience: ["Varoon Valley (2023 - current)"],
-    languages: ["React", "Laravel"],
-    project: [],
+    experience: [
+      "Innovis (2021 - 2022)",
+      "Varoon Valley (2023 - current)"],
+    languages: [
+    "Laravel",
+    "PHP",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "JSON",
+    "Bootstrap",
+    "MySQL"
+  ],
+    project: [
+      "Hospital Network Integration with AD",
+      "Taxi Hailing System",
+    ],
   },
   {
     name: "Aung Phyo Thant",
@@ -63,22 +78,22 @@ export default [
     languages: ["React", "Laravel", "Vue", "Flutter", "Figma", "Illustrator"],
     project: [],
   },
-  {
-    name: "Chawbe Lar",
-    position: "Software Developer",
-    picture: ChawBeLar,
-    education: ["KMD (2019 - currnet)","Varoon Valley (2023 - current)"],
-    experience: ["Varoon Valley (2023 - current)"],
-    languages: ["React", "Laravel"],
-    project: [],
-  },
+  // {
+  //   name: "Chawbe Lar",
+  //   position: "Software Developer",
+  //   picture: ChawBeLar,
+  //   education: ["KMD (2019 - currnet)","Varoon Valley (2023 - current)"],
+  //   experience: ["Varoon Valley (2023 - current)"],
+  //   languages: ["React", "Laravel"],
+  //   project: [],
+  // },
   {
     name: "Soe Phyu Phyu Htun",
     position: "Software Developer",
     picture: SoePhyuPhyuHtun,
     education: ["Mogok Foundation + Tastysoft (2019 - 2022)"],
     experience: ["Tastysoft (2022)", "Varoon Valley (2023 - current)"],
-    languages: ["React", "Laravel", "Python Flask", "Flutter"],
+    languages: ["React", "Laravel", "Python Flask", "Flutter", "Figma", "PHP"],
     project: [],
   },
   {
